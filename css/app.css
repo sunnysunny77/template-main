@@ -1,0 +1,50 @@
+@font-face {
+  font-family: Poppins;
+  src: url(./Poppins-Regular.ttf);
+  font-display: swap;
+}
+/* css */
+body {
+  margin: 0;
+  font-family: Poppins;
+}
+
+#two-col {
+  position: relative;
+}
+#two-col h2 {
+  font-family: "Times New Roman", serif;
+  position: relative;
+}
+#two-col h2::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(../images/dot.webp);
+  background-repeat: repeat-x;
+  width: 40px;
+  height: 8px;
+}
+#two-col h2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(../images/dot.webp);
+  background-repeat: repeat-y;
+  width: 8px;
+  height: 40px;
+}
+#two-col::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-image: url(../images/dot.webp);
+  background-repeat: repeat-x;
+  height: 8px;
+}
+
+/*# sourceMappingURL=app.css.map */

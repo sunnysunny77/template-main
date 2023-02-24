@@ -36,14 +36,16 @@ body {
     &::after {
         content: "";
         position: absolute;
-        right: 0;
-        left: 0;
+        right: 1rem;
+        left: 1rem;
         bottom: 0;
         background-image: url(../images/dot.webp);
         background-repeat: repeat-x;
         height: 8px;
+        @media only Screen and (min-width: 992px) {
+            right: 3rem;
+            left: 3rem;
+        }
+        
     }
-}
-
-@media only Screen and (min-width: 992px) {
 }

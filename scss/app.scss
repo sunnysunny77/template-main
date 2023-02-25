@@ -20,7 +20,7 @@ body {
             background-image: url(../images/dot.webp);
             background-repeat: repeat-x;
             width: 40px;
-            height: 8px;
+            height: 4px;
         }
         &::before {
             content: "";
@@ -29,7 +29,7 @@ body {
             left: 0;
             background-image: url(../images/dot.webp);
             background-repeat: repeat-y;
-            width: 8px;
+            width: 4px;
             height: 40px;
         }
     }
@@ -41,7 +41,7 @@ body {
         bottom: 0;
         background-image: url(../images/dot.webp);
         background-repeat: repeat-x;
-        height: 8px;
+        height: 4px;
         @media only Screen and (min-width: 992px) {
             right: 3rem;
             left: 3rem;

@@ -39,8 +39,8 @@ body {
 #two-col::after {
   content: "";
   position: absolute;
-  right: 1rem;
-  left: 1rem;
+  right: 0;
+  left: 0;
   bottom: 0;
   background-image: url(../images/dot.webp);
   background-repeat: repeat-x;
